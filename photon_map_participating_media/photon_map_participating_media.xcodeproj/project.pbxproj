@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		101219D719E42B230060F8A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 101219D619E42B230060F8A5 /* main.cpp */; };
+		101219DE19E42C1F0060F8A5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101219DD19E42C1F0060F8A5 /* OpenGL.framework */; };
+		101219E019E42C2E0060F8A5 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101219DF19E42C2E0060F8A5 /* GLUT.framework */; };
+		101219E319E43E470060F8A5 /* photon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 101219E119E43E470060F8A5 /* photon.cpp */; };
+		1085DB1019FD47BB005310B8 /* noise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1085DB0E19FD47BB005310B8 /* noise.cpp */; };
+		10AC823719F6A33600E5B51A /* volumephoton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10AC823619F6A33600E5B51A /* volumephoton.cpp */; };
+		10AC823919F6A3AF00E5B51A /* intersection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10AC823819F6A3AF00E5B51A /* intersection.cpp */; };
+		10AC823C19F6A44B00E5B51A /* scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10AC823A19F6A44B00E5B51A /* scene.cpp */; };
+		10AC823F19F6AE4F00E5B51A /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10AC823E19F6AE4F00E5B51A /* camera.cpp */; };
+		10BBEEFD19E58A5B00A2F192 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10BBEEFC19E58A5B00A2F192 /* utils.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		101219D119E42B230060F8A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		101219D319E42B230060F8A5 /* photon_map_participating_media */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = photon_map_participating_media; sourceTree = BUILT_PRODUCTS_DIR; };
+		101219D619E42B230060F8A5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		101219DD19E42C1F0060F8A5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		101219DF19E42C2E0060F8A5 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		101219E119E43E470060F8A5 /* photon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = photon.cpp; sourceTree = "<group>"; };
+		101219E219E43E470060F8A5 /* photon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = photon.h; sourceTree = "<group>"; };
+		101219E419E43EE40060F8A5 /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		101219E519E4604C0060F8A5 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		101219E619E4F37B0060F8A5 /* ray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ray.h; sourceTree = "<group>"; };
+		1085DB0E19FD47BB005310B8 /* noise.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = noise.cpp; sourceTree = "<group>"; };
+		1085DB0F19FD47BB005310B8 /* noise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = noise.h; sourceTree = "<group>"; };
+		10AC823619F6A33600E5B51A /* volumephoton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = volumephoton.cpp; sourceTree = "<group>"; };
+		10AC823819F6A3AF00E5B51A /* intersection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = intersection.cpp; sourceTree = "<group>"; };
+		10AC823A19F6A44B00E5B51A /* scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scene.cpp; sourceTree = "<group>"; };
+		10AC823B19F6A44B00E5B51A /* scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scene.h; sourceTree = "<group>"; };
+		10AC823D19F6A57600E5B51A /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		10AC823E19F6AE4F00E5B51A /* camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = camera.cpp; sourceTree = "<group>"; };
+		10BBEEFB19E5795C00A2F192 /* sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		10BBEEFC19E58A5B00A2F192 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		101219D019E42B230060F8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101219E019E42C2E0060F8A5 /* GLUT.framework in Frameworks */,
+				101219DE19E42C1F0060F8A5 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		101219CA19E42B230060F8A5 = {
+			isa = PBXGroup;
+			children = (
+				101219DF19E42C2E0060F8A5 /* GLUT.framework */,
+				101219DD19E42C1F0060F8A5 /* OpenGL.framework */,
+				101219D519E42B230060F8A5 /* photon_map_participating_media */,
+				101219D419E42B230060F8A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		101219D419E42B230060F8A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				101219D319E42B230060F8A5 /* photon_map_participating_media */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		101219D519E42B230060F8A5 /* photon_map_participating_media */ = {
+			isa = PBXGroup;
+			children = (
+				101219D619E42B230060F8A5 /* main.cpp */,
+				101219E119E43E470060F8A5 /* photon.cpp */,
+				101219E219E43E470060F8A5 /* photon.h */,
+				101219E619E4F37B0060F8A5 /* ray.h */,
+				1085DB0E19FD47BB005310B8 /* noise.cpp */,
+				1085DB0F19FD47BB005310B8 /* noise.h */,
+				10AC823819F6A3AF00E5B51A /* intersection.cpp */,
+				101219E419E43EE40060F8A5 /* vector.h */,
+				10BBEEFB19E5795C00A2F192 /* sphere.h */,
+				101219E519E4604C0060F8A5 /* utils.h */,
+				10AC823A19F6A44B00E5B51A /* scene.cpp */,
+				10AC823B19F6A44B00E5B51A /* scene.h */,
+				10AC823619F6A33600E5B51A /* volumephoton.cpp */,
+				10BBEEFC19E58A5B00A2F192 /* utils.cpp */,
+				10AC823D19F6A57600E5B51A /* camera.h */,
+				10AC823E19F6AE4F00E5B51A /* camera.cpp */,
+			);
+			path = photon_map_participating_media;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		101219D219E42B230060F8A5 /* photon_map_participating_media */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 101219DA19E42B230060F8A5 /* Build configuration list for PBXNativeTarget "photon_map_participating_media" */;
+			buildPhases = (
+				101219CF19E42B230060F8A5 /* Sources */,
+				101219D019E42B230060F8A5 /* Frameworks */,
+				101219D119E42B230060F8A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = photon_map_participating_media;
+			productName = photon_map_participating_media;
+			productReference = 101219D319E42B230060F8A5 /* photon_map_participating_media */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		101219CB19E42B230060F8A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = kaichen;
+				TargetAttributes = {
+					101219D219E42B230060F8A5 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 101219CE19E42B230060F8A5 /* Build configuration list for PBXProject "photon_map_participating_media" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 101219CA19E42B230060F8A5;
+			productRefGroup = 101219D419E42B230060F8A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				101219D219E42B230060F8A5 /* photon_map_participating_media */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		101219CF19E42B230060F8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1085DB1019FD47BB005310B8 /* noise.cpp in Sources */,
+				10AC823F19F6AE4F00E5B51A /* camera.cpp in Sources */,
+				10BBEEFD19E58A5B00A2F192 /* utils.cpp in Sources */,
+				101219D719E42B230060F8A5 /* main.cpp in Sources */,
+				10AC823719F6A33600E5B51A /* volumephoton.cpp in Sources */,
+				10AC823919F6A3AF00E5B51A /* intersection.cpp in Sources */,
+				10AC823C19F6A44B00E5B51A /* scene.cpp in Sources */,
+				101219E319E43E470060F8A5 /* photon.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		101219D819E42B230060F8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"ISO=1",
+					"HOMO=1",
+					"ANISO=0",
+					"HETE=0",
+					"MEDIUM=1",
+					"VISUAL=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		101219D919E42B230060F8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		101219DB19E42B230060F8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				New_Setting = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		101219DC19E42B230060F8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				New_Setting = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		101219CE19E42B230060F8A5 /* Build configuration list for PBXProject "photon_map_participating_media" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101219D819E42B230060F8A5 /* Debug */,
+				101219D919E42B230060F8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		101219DA19E42B230060F8A5 /* Build configuration list for PBXNativeTarget "photon_map_participating_media" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101219DB19E42B230060F8A5 /* Debug */,
+				101219DC19E42B230060F8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 101219CB19E42B230060F8A5 /* Project object */;
+}

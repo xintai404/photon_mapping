@@ -1,0 +1,40 @@
+//
+//  noise.h
+//  photon_map_participating_media
+//
+//
+
+#ifndef __noise_H__
+#define __noise_H__
+
+#define B 0x100
+#define BM 0xff
+#define N 0x1000
+#define NP 12   /* 2^N */
+#define NM 0xfff
+
+#define s_curve(t) ( t * t * (3. - 2. * t) )
+#define lerp(t, a, b) ( a + t * (b - a) )
+#define setup(i,b0,b1,r0,r1)\
+            t = vec[i] + N;\
+            b0 = ((int)t) & BM;\
+            b1 = (b0+1) & BM;\
+            r0 = t - (int)t;\
+            r1 = r0 - 1.;
+#define at2(rx,ry) ( rx * q[0] + ry * q[1] )
+#define at3(rx,ry,rz) ( rx * q[0] + ry * q[1] + rz * q[2] )
+
+extern void init(void);
+extern double noise1(double);
+extern double noise2(double *);
+extern double noise3(double *);
+extern void normalize3(double *);
+extern void normalize2(double *);
+
+extern double PerlinNoise1D(double,double,double,int);
+extern double PerlinNoise2D(double,double,double,double,int);
+extern double PerlinNoise3D(double,double,double,double,double,int);
+
+
+extern void testNoise(void);
+#endif /* defined(__noise_H__) */

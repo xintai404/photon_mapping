@@ -1,0 +1,14 @@
+##############################
+Main Source file description:
+##############################
+Photon.cpp: photon mapping algorithm for surface
+
+volumephoton.cpp: extended photon mapping for volume rendering
+
+noisse.cpp: perlin noise generator
+
+main.cpp: setup and init glut to draw the final image
+
+
+The photon map data structure and the noise generator function are referenced from 
+outside source and I modified them to adapt to my project.
